@@ -58,19 +58,21 @@ Performance with 15 robots was 249 iterations
 # Robot Kinematics
 
 ### 1 Forward kinematics
-Robot arm given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths l1=3, l2=5, l3=7
+Robot arm position given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths L1=3, L2=5, L3=7
 <p align="center">
   <img src="images/forward1.png" />
 </p>
-Robot arm given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths l1=3, l2=5, l3=7
+Robot arm given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths L1=3, L2=5, L3=7
 <p align="center">
   <img src="images/forward2.png" />
 </p>
 
 ### 2 Inverse kinematics
+Final robot arm position given target (6,2), initial joint angles θ1=π/6, θ2=0, θ3=0, and arm lengths L1=L2=L3=10
 <p align="center">
   <img src="images/inverse1.png" />
 </p>
+Final robot arm position given target (6,2), initial joint angles θ1=π/3, θ2=0, θ3=0, and arm lengths L1=L2=L3=10
 <p align="center">
   <img src="images/inverse2.png" />
 </p>
