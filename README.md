@@ -82,9 +82,16 @@ Final robot arm position given target (6,2), initial joint angles θ1=π/3, θ2=
 <p align="center">
   <img src="images/maze.png" />
 </p>
+This algorithm implements two basic search algorithms, Breadth First Search (BFS) and Depth First Search (DFS). BFS searches through all of the starting node's children, updates their parent variable to the current node, and adds them to the stack. Then BFS pops the node at the front of the stack (FIFO) and adds all of its children to the stack. This process is repeated until the goal is reached. Then the path is extracted by starting at the end and following all of the parent pointers. DFS is similar to BFS except it pops from the top of the stack (LIFO). Performance between the two implementations is decided via for loop iterations.
+
+### 1 Breadth first search
+Performance for BFS was 1,258 iterations.
 <p align="center">
   <img src="images/path.png" />
 </p>
+
+### 1 Depth first search
+Performance for DFS was 2,487 iterations. Even though the resulting path for both algorithms is the same, DFS was the least efficient of the two.
 <p align="center">
   <img src="images/path.png" />
 </p>
