@@ -1,4 +1,6 @@
 # Potential Field Traversal
+![](images/3dContour.png)
+
 ## 1 Plotting the Potential and Vector Field
 
 The starting position is at [0,0], the goal is at position[99, 99], and the obstacles are located at [10,40] and [60, 50].
