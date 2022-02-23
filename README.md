@@ -34,6 +34,8 @@ This algorithm works much like gravity does on objects. Here the objective is pl
 <p align="center">
   <img src="images/swarm.png" />
 </p>
+
+# Robot Kinematics
 <p align="center">
   <img src="images/forward1.png" />
 </p>
@@ -46,6 +48,8 @@ This algorithm works much like gravity does on objects. Here the objective is pl
 <p align="center">
   <img src="images/inverse2.png" />
 </p>
+
+# Path Finding
 <p align="center">
   <img src="images/maze.png" />
 </p>
