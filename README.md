@@ -1,5 +1,3 @@
-Bellow is information and results of Potential_Field_Traversal.py, Robot_Swarm.py, Robot_Kinematics.py, and Path_Finding.py
-
 # Potential Field Traversal
 <p align="center">
   <img src="images/3dContour.png" />
