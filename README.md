@@ -40,19 +40,18 @@ This algorithm generates n robots and a mxm map for them to explore. Positions o
 <p align="center">
   <img src="images/swarm5.png" />
 </p>
-Algorithm Iterations: 629
+Performance with 5 robots was 629 iterations
 
 ### 2 Map explorition with 10 Robots.
 <p align="center">
   <img src="images/swarm10.png" />
-</p>
-Algorithm Iterations: 343
+</p>Performance with 10 robots was 343 iterations
 
 ### 3 Map explorition with 15 Robots.
 <p align="center">
   <img src="images/swarm15.png" />
 </p>
-Algorithm Iterations: 249
+Performance with 15 robots was 249 iterations
 
 # Robot Kinematics
 <p align="center">
