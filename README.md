@@ -30,6 +30,7 @@ This method of traversal is better than sense-act traversal because it allows yo
 
 This algorithm works much like gravity does on objects. Here the objective is placed at the bottom of the hill and the robot at the top. The bot will therefore have a natural tendency to roll towards the objective. Obstacles are also represented as hills(repulsors) but smaller in scope. These hills cause the robot to naturally roll around obstacles as it descends.
 
+
 # Robot Swarms
 <p align="center">
   <img src="images/swarm.png" />
@@ -53,6 +54,7 @@ Performance with 5 robots was 629 iterations
 </p>
 Performance with 15 robots was 249 iterations
 
+
 # Robot Kinematics
 <p align="center">
   <img src="images/forward1.png" />
@@ -66,6 +68,7 @@ Performance with 15 robots was 249 iterations
 <p align="center">
   <img src="images/inverse2.png" />
 </p>
+
 
 # Path Finding
 <p align="center">
