@@ -1,4 +1,5 @@
-# Potential Field Traversal
+# ECE 172A - Winter 2022
+## Potential Field Traversal
 <p align="center">
   <img src="images/3dContour.png" />
 </p>
@@ -31,7 +32,7 @@ This method of traversal is better than sense-act traversal because it allows yo
 This algorithm works much like gravity does on objects. Here the objective is placed at the bottom of the hill and the robot at the top. The bot will therefore have a natural tendency to roll towards the objective. Obstacles are also represented as hills(repulsors) but smaller in scope. These hills cause the robot to naturally roll around obstacles as it descends.
 
 
-# Robot Swarms
+## Robot Swarms
 <p align="center">
   <img src="images/swarm.png" />
 </p>
@@ -56,7 +57,7 @@ Performance with 10 robots was 343 iterations
 Performance with 15 robots was 249 iterations
 
 
-# Robot Kinematics
+## Robot Kinematics
 
 ### 1 Forward kinematics
 <p align="center">
@@ -79,7 +80,7 @@ Final robot arm position given target (6,2), initial joint angles θ1=π/6, θ2=
 Final robot arm position given target (6,2), initial joint angles θ1=π/3, θ2=0, θ3=0, and arm lengths L1=L2=L3=10
 
 
-# Path Finding
+## Path Finding
 <p align="center">
   <img src="images/maze.png" />
 </p>
