@@ -33,7 +33,7 @@ Real-world obstacles are represented as repulsors in the potential field. This a
 <p align="center">
   <img src="images/swarm.png" />
 </p>
-Robot_Swarm.py generates N robots on a MxM map for them to explore. Positions on the map can either be labeled as unmapped, planned, mapped, or wall. All bots share the same destination selection algorithm and utilize A* search to find a path. The bots keep track of all explored areas and continue exploring until all positions have been mapped. The goal of the algorithm is not to keep the swarm together but instead explore the map in the fewest iterations possible. In order to prevent robots from moving in a clump and walking the same path, a list of the closest positions is kept and a random option is chosen.
+Robot_Swarm.py generates N robots on an MxM map for them to explore. Positions on the map can either be labeled as unmapped, planned, mapped, or wall. All bots share the same destination selection algorithm and utilize A* search to find a path. The bots keep track of all explored areas and continue exploring until all positions have been mapped. The goal of the algorithm is not to keep the swarm together but instead explore the map in the fewest iterations possible. In order to prevent robots from moving in a clump and walking the same path, a list of the closest positions is kept and a random option is chosen.
 
 ### 1 Map exploration with 5 Robots
 <p align="center">
@@ -57,7 +57,7 @@ Performance with 15 robots was 249 iterations
 <p align="center">
   <img src="images/maze.png" />
 </p>
-This algorithm implements two basic search algorithms, Breadth First Search (BFS) and Depth First Search (DFS). BFS searches through all of the starting node's children, updates their parent variable to the current node, and adds them to the stack. Then BFS pops the node at the front of the stack (FIFO) and adds all of its children to the stack. This process is repeated until the goal is reached. Then the path is extracted by starting at the end and following all of the parent pointers. DFS is similar to BFS except it pops from the top of the stack (LIFO). Performance between the two implementations is decided via for loop iterations.
+Path_Finding.py implements two basic search algorithms, Breadth First Search (BFS) and Depth First Search (DFS). BFS searches through all of the starting node's children, updates their parent variable to the current node, and adds them to the stack. Then BFS pops the node at the front of the stack (FIFO) and adds all of its children to the stack. This process is repeated until the goal is reached. Then the path is extracted by starting at the end and following all of the parent pointers. DFS is similar to BFS except it pops from the top of the stack (LIFO). Performance between the two implementations is decided via for-loop iterations.
 
 ### 1 Breadth-first search
 <p align="center">
