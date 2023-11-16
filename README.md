@@ -1,5 +1,5 @@
 # ECE 172A - Winter 2022
-This repo contains Python scripts exploring various aspects of machine intelligence, pathfinding, and robotic kinematics. All scripts can be run and customized by cloning this repo and modifying any initial conditions.
+This repo contains Python scripts exploring various aspects of pathfinding, machine intelligence, and robotic kinematics. All scripts can be run and customized by cloning this repo and modifying any initial conditions.
 
 ## Potential Field Traversal
 <p align="center">
