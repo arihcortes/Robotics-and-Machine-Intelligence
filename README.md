@@ -53,6 +53,23 @@ Performance with 10 robots was 343 iterations
 </p>
 Performance with 15 robots was 249 iterations
 
+## Path Finding
+<p align="center">
+  <img src="images/maze.png" />
+</p>
+This algorithm implements two basic search algorithms, Breadth First Search (BFS) and Depth First Search (DFS). BFS searches through all of the starting node's children, updates their parent variable to the current node, and adds them to the stack. Then BFS pops the node at the front of the stack (FIFO) and adds all of its children to the stack. This process is repeated until the goal is reached. Then the path is extracted by starting at the end and following all of the parent pointers. DFS is similar to BFS except it pops from the top of the stack (LIFO). Performance between the two implementations is decided via for loop iterations.
+
+### 1 Breadth-first search
+<p align="center">
+  <img src="images/path.png" />
+</p>
+Performance for BFS was 1,258 iterations.
+
+### 1 Depth-first search
+<p align="center">
+  <img src="images/path.png" />
+</p>
+Performance for DFS was 2,487 iterations. Even though the resulting path for both algorithms is the same, DFS was the least efficient of the two.
 
 ## Robot Kinematics
 
@@ -75,22 +92,3 @@ Final robot arm position given target (6,2), initial joint angles θ1=π/6, θ2=
   <img src="images/inverse2.png" />
 </p>
 Final robot arm position given target (6,2), initial joint angles θ1=π/3, θ2=0, θ3=0, and arm lengths L1=L2=L3=10
-
-
-## Path Finding
-<p align="center">
-  <img src="images/maze.png" />
-</p>
-This algorithm implements two basic search algorithms, Breadth First Search (BFS) and Depth First Search (DFS). BFS searches through all of the starting node's children, updates their parent variable to the current node, and adds them to the stack. Then BFS pops the node at the front of the stack (FIFO) and adds all of its children to the stack. This process is repeated until the goal is reached. Then the path is extracted by starting at the end and following all of the parent pointers. DFS is similar to BFS except it pops from the top of the stack (LIFO). Performance between the two implementations is decided via for loop iterations.
-
-### 1 Breadth-first search
-<p align="center">
-  <img src="images/path.png" />
-</p>
-Performance for BFS was 1,258 iterations.
-
-### 1 Depth-first search
-<p align="center">
-  <img src="images/path.png" />
-</p>
-Performance for DFS was 2,487 iterations. Even though the resulting path for both algorithms is the same, DFS was the least efficient of the two.
