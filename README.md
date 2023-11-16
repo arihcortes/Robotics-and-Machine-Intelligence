@@ -6,7 +6,7 @@ This repo contains Python scripts exploring various aspects of machine intellige
 <p align="center">
   <img src="images/3dContour.png" />
 </p>
-This method of traversal is better than the sense-act traversal method because it allows you to plan your path before you begin moving. Sensing and acting on the fly can get you stuck or produce a suboptimal path. Gradient descent also keeps the robot equidistant from all obstacles as opposed to other algorithms that have wall-hugging heuristics or don't take obstacle distance into account. This algorithm works much like gravity does on objects. Here the objective is placed at the bottom of the hill and the robot at the top. The bot will therefore have a natural tendency to roll towards the objective. Obstacles are also represented as hills(repulsors) but smaller in scope. These hills cause the robot to naturally roll around obstacles as it descends.
+Potential_Field_Traversal.py explores gradient descent as a method of robotic traversal. Real-world obstacles are represented as hills(repulsors) and the objective is represented by a hole(attractor) that encompasses the entire space. The robot can be placed anywhere in the room and will have a natural tendency to descend towards the objective. This algorithm mimics the effects of gravity on objects and the hills created by real-world objects will cause the robot to roll around obstacles as it descends. This method of traversal is better than the sense-act traversal method because it allows path planning before beginning to move. Sensing and acting on the fly can get you stuck or produce a suboptimal path. 
 
 ### 1 Plotting the Potential and Vector Fields
 <p align="center">
