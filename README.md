@@ -72,9 +72,18 @@ Performance for BFS was 1,258 iterations.
 Performance for DFS was 2,487 iterations. Even though the resulting path for both algorithms is the same, DFS was the least efficient of the two.
 
 ## Robot Kinematics
+<p align="center">
+  <img src="images/forward1.png" />
+</p>
 Robot_Kinematics.py is a tool that allows you to input a robot arm's segment lengths, starting angles, and desired target position. The algorithm will then calculate the inverse jacobian of the current position and destination to move the joints one step closer to the goal. These steps are stored and then animated once the target is reached.
 
-### 1 Inverse kinematics
+### 1 Forward kinematics
+<p align="center">
+  <img src="images/forward2.png" />
+</p>
+Robot arm given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths L1=3, L2=5, L3=7
+
+### 2 Inverse kinematics
 <p align="center">
   <img src="images/inverse1.png" />
 </p>
@@ -83,13 +92,3 @@ Final robot arm position given target (6,2), initial joint angles θ1=π/6, θ2=
   <img src="images/inverse2.png" />
 </p>
 Final robot arm position given target (6,2), initial joint angles θ1=π/3, θ2=0, θ3=0, and arm lengths L1=L2=L3=10
-
-### 2 Forward kinematics
-<p align="center">
-  <img src="images/forward1.png" />
-</p>
-Robot arm given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths L1=3, L2=5, L3=7
-<p align="center">
-  <img src="images/forward2.png" />
-</p>
-Robot arm given joint angles θ1=π/3, θ2=π/12, θ3=−π/6 and arm lengths L1=3, L2=5, L3=7
