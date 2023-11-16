@@ -75,7 +75,7 @@ Performance for DFS was 2,487 iterations. Even though the resulting path for bot
 <p align="center">
   <img src="images/forward1.png" />
 </p>
-Robot_Kinematics.py is a tool that allows you to input a robot arm's segment lengths, starting angles, and desired target position. The algorithm will then calculate the inverse jacobian of the current position and destination to move the joints one step closer to the goal. These steps are stored and then animated once the target is reached.
+Robot_Kinematics.py is a tool that allows you to input a robot arm's segment lengths, starting angles, and desired target position. The algorithm will then calculate the inverse jacobian of the arm's current position and target to help move the joints one step closer. Each step is stored and then animated once the target is reached.
 
 ### 1 Forward kinematics
 <p align="center">
